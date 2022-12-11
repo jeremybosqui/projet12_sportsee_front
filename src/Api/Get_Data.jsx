@@ -1,7 +1,7 @@
 /*import de l'Api via le port 3003 qui affichera les user infos récupéré via celui-ci*/
-// import { getUserActivity,getUserAverageSessions, getUserInfos, getUserPerformance, } from "./ApiCall";
+import { getUserActivity,getUserAverageSessions, getUserInfos, getUserPerformance, } from "./Call_Data";
 /*import effectuer via le fichier data-mocked present dans le dossier Api*/
-import { getUserActivity,getUserAverageSessions, getUserInfos, getUserPerformance, } from "./Mock_Data";
+// import { getUserActivity,getUserAverageSessions, getUserInfos, getUserPerformance, } from "./Mock_Data";
 
 
   /**

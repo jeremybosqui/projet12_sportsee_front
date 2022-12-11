@@ -2,10 +2,10 @@ import styled from 'styled-components';
 
 const Wrapper = styled.div`
     margin-bottom: 2em;
-	height: 320px;
-    width: 835px;
+	height: 285px;
+    width: 800px;
 	border-radius: 5px;
-    background: #FBFBFB;
+    background: #eeeeee;
 	box-shadow: 2px 4px rgba(0, 0, 0, 0.0212249);
 	padding: 25px;
 	
@@ -18,11 +18,12 @@ const Head = styled.div`
     justify-content: space-between;
     margin-bottom: 2.5rem;
     margin-right: 1.5rem;
+	margin-left: 20px;
 	`
 
 const Title= styled.h2`
     font-size: 15px;
-    line-height: 24px;
+    line-height: 0;
     color: #20253A;
 `
 

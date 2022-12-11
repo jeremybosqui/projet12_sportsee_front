@@ -1,11 +1,11 @@
 import styled from 'styled-components';
 
 const Container = styled.div`
-position: relative;
-width: 258px;
-height: 263px;
-background: #FBFBFB;
-border-radius: 5px;
+  position: relative;
+  width: 258px;
+  height: 263px;
+  background: #eeeeee;
+  border-radius: 5px;
 `;
 
 const Title = styled.h2`
@@ -29,7 +29,7 @@ line-height: 20px;
 font-weight: 700;
 text-align: center;
 color: #74798c;
-background: #FBFBFB;
+background: #eeeeee;
 border-radius: 50%;
 padding: 2.3rem 2.7rem;
 `;

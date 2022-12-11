@@ -3,7 +3,7 @@ import styled from "styled-components";
   const Head = styled.header`
   position: relative;
   display: flex;
-  width: 100%;
+  width: 110%;
   height: 91px;
   background: #020203;
   padding: 0 87px 0 29px;
@@ -12,9 +12,6 @@ import styled from "styled-components";
   img {
     width: 178px;
     margin-right: 150px;
-    @media (max-width: 1025px) {
-      margin-right: 70px;
-    }
   }
 `;
  const Nav = styled.nav`

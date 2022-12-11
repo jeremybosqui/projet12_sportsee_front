@@ -4,19 +4,17 @@ const Main = styled.main`
   display: grid;
   grid-template-columns: 117px auto;
   margin: auto;
-  @media screen and (max-width: 1250px) {
-    grid-gap: 1em;
-  }
+  
 `;
 const Container = styled.div`
-  max-width: 1240px;
+  max-width: 1540px;
   width: 100%;
   margin-top: 2%;
+  margin-left: 20px;
 `;
 
 const Content = styled.div`
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   width: 100%;
@@ -29,22 +27,18 @@ const Content = styled.div`
     height: 670px;
     margin-left: 2rem;
     @media (max-width: 1280px) {
-      display: grid;
-      grid-template-columns: 3fr 3fr 2fr;
-      margin-left: 60px;
       height: auto;
-    }
-    > div {
-      margin: 20px 5px;
+      gap: 86px;
+      margin-right: 30px;
     }
   }
 `;
 
 const BottomChart = styled.div`
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 2em;
-  justify-content: space-between;
+    display: flex;
+    //width: 700px;
+    width: auto;
+    gap: 25px;
 `;
 
 export {Main, Container, Content, BottomChart}
