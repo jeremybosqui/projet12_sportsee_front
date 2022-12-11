@@ -19,7 +19,7 @@
 ## Pour utliser le call de l'Api : 
   - Suivre l'étape précédente 
   - Verifier que la ligne de code dans le fichier getData est bien celle de l'Api et non celle des data mocked
-  - Vérifier que le port sur lequel se connecte l'APi est bien le [http://localhost:3000](http://localhost:3003)
+  - Vérifier que le port sur lequel se connecte l'APi est bien le [http://localhost:3003](http://localhost:3003)
 
 ## Le projet a 2 profil prédéfini : /user/12 et /user/18 
   - S'assurer que l'on se trouve sur l'un des 2 profil afin d'avoir accès au donées correspondante
