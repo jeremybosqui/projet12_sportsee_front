@@ -8,9 +8,12 @@ const Main = styled.main`
 `;
 const Container = styled.div`
   max-width: 1540px;
+  @media (max-width: 1225px) {
+    padding-left:0;
+    margin-left: 20px;
+  }
   width: 100%;
   margin-top: 2%;
-  margin-left: 20px;
 `;
 
 const Content = styled.div`
@@ -29,6 +32,11 @@ const Content = styled.div`
     @media (max-width: 1280px) {
       height: auto;
       gap: 86px;
+      margin-right: 30px;
+    }
+    @media (min-width: 1281px) {
+      height: auto;
+      gap: 85px;
       margin-right: 30px;
     }
   }

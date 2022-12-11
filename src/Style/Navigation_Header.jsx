@@ -1,12 +1,14 @@
 import styled from "styled-components";
 
   const Head = styled.header`
-  position: relative;
   display: flex;
-  width: 110%;
+    
+  width: 100%;
+    @media (max-width: 1225px) {
+      width: 120.6%;
+    }
   height: 91px;
   background: #020203;
-  padding: 0 87px 0 29px;
   box-shadow: 0 5px 5px rgba(0, 0, 0, 0.25);
   z-index: 1;
   img {
@@ -15,7 +17,7 @@ import styled from "styled-components";
   }
 `;
  const Nav = styled.nav`
-  width: 80%;
+  width: 60%;
   display: flex;
   justify-content: space-between;
   align-items: center;

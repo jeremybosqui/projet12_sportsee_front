@@ -3,7 +3,7 @@ import styled from 'styled-components';
 const Wrapper = styled.div`
     margin-bottom: 2em;
 	height: 285px;
-    width: 800px;
+    width: 94%;
 	border-radius: 5px;
     background: #eeeeee;
 	box-shadow: 2px 4px rgba(0, 0, 0, 0.0212249);
