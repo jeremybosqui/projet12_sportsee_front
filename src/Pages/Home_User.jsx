@@ -6,7 +6,7 @@ class HeaderNav extends React.Component {
         super(props);
         this.state = { appName:"Sportsee"}
     }
-    static getOtherColor(props) {
+    static getAppName(props) {
         return {appName: props}
     }
     render() {
