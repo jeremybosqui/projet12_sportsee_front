@@ -68,5 +68,5 @@
  * Get userdata main information
  * @return {Object} Return les donnes du user en recuperant les infos via le backend déjà créé
  */
-export const getDataUser = (id) => fetch(process.env.REACT_APP_BACKEND + "user/" + id)
-    .then(response => response.json()).then(data => data.data)
+// export const getDataUser = (id) => fetch(process.env.REACT_APP_BACKEND + "user/" + id)
+//     .then(response => response.json()).then(data => data.data)
